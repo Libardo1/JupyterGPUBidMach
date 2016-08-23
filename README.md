@@ -86,6 +86,8 @@ sys.path.insert(0, os.path.join(spark_home, 'python/lib/py4j-0.9-src.zip'))
 
 ## Install BidMach 
 ### Configuration
+Install the Binary BidMach distribution but ... replace 'bidmach' with the 'bidmach' binary provided with this repo. Make sure to change the variables to reflect your environment. 
+
 Inside bidmach:
 
 ```
