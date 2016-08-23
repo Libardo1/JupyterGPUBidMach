@@ -5,12 +5,25 @@ A collection of scripts to utilize Bidmach on Jupyter.
 ## Target OS:
 Installed on Ubuntu 14 64BIT, but should work on recent releases too. 
 
-* shlomo@anycub01:~/Downloads/GpuTest_Linux_x64_0.7.0$ uname -a
-* Linux anycub01 4.2.0-35-generic #40~14.04.1-Ubuntu SMP Fri Mar 18 16:37:35 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+* shlomo@xxx$ uname -a
+* Linux xxx 4.2.0-35-generic #40~14.04.1-Ubuntu SMP Fri Mar 18 16:37:35 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
 
 ## Target GPU:
 NVIDIA GPU family. Mine is:
-![My GPU](gpu.png)
+
+```
+shlomo@xxx:$ lspci  -v -s  $(lspci | grep VGA | cut -d" " -f 1)
+01:00.0 VGA compatible controller: NVIDIA Corporation GM204 [GeForce GTX 970] (rev a1) (prog-if 00 [VGA controller])
+	Subsystem: Gigabyte Technology Co., Ltd Device 367a
+	Flags: bus master, fast devsel, latency 0, IRQ 134
+	Memory at f6000000 (32-bit, non-prefetchable) [size=16M]
+	Memory at e0000000 (64-bit, prefetchable) [size=256M]
+	Memory at f0000000 (64-bit, prefetchable) [size=32M]
+	I/O ports at e000 [size=128]
+	[virtual] Expansion ROM at f7000000 [disabled] [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: nvidia
+```
 
 ## Install Anaconda Jupyter 
 
