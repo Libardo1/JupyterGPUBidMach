@@ -68,6 +68,40 @@ export XDG_RUNTIME_DIR=""
 ## Install Spark 1.6
 ### Configuration
 
+## Start Jupyter 
+
+```
+total 1276
+drwxrwxr-x 10 shlomo shlomo    4096 אוג 21 08:42 .
+drwxrwxr-x 13 shlomo shlomo    4096 אוג 23 08:16 ..
+-rwxrwxr-x  1 shlomo shlomo    3262 אוג 17 17:17 bidmach
+-rwxr-xr-x  1 shlomo shlomo    2832 מאי 20  2015 bidmach2
+-rwxr-xr-x  1 shlomo shlomo    2832 מאי 20  2015 bidmach2~
+-rw-rw-r--  1 shlomo shlomo   63695 אוג 21 08:42 BIDMach_basic_classification.ipynb
+-rwxrwxr-x  1 shlomo shlomo     896 מאי 20  2015 bidmach.cmd
+-rwxr-xr-x  1 shlomo shlomo    1502 מאי 20  2015 bidmach_full
+-rw-rw-r--  1 shlomo shlomo    1749 מאי 20  2015 bidmach_full~
+-rw-rw-r--  1 shlomo shlomo 1135913 מאי 20  2015 BIDMach.jar
+-rwxrwxr-x  1 shlomo shlomo    1272 מאי 20  2015 build.sbt
+drwxrwxr-x  2 shlomo shlomo    4096 מאי 20  2015 cbin
+-rwxrwxr-x  1 shlomo shlomo    1552 מאי 20  2015 Copyright.txt
+drwxrwxr-x  4 shlomo shlomo    4096 מאי 20  2015 data
+-rwxrwxr-x  1 shlomo shlomo     723 מאי 20  2015 getlibs.sh
+-rw-rw-r--  1 shlomo shlomo     509 מאי 20  2015 getnativepath.class
+-rw-rw-r--  1 shlomo shlomo     176 מאי 20  2015 getnativepath.java
+drwxr-xr-x  2 shlomo shlomo    4096 אוג 17 17:11 .ipynb_checkpoints
+-rw-rw-r--  1 shlomo shlomo     157 אוג 17 16:32 java_native_path.txt
+drwxrwxr-x  4 shlomo shlomo    4096 מאי 20  2015 jni
+drwxrwxr-x  2 shlomo shlomo    4096 מאי 20  2015 lib
+-rwxrwxr-x  1 shlomo shlomo     817 מאי 20  2015 README.md
+-rwxrwxr-x  1 shlomo shlomo     148 מאי 20  2015 sbt
+drwxrwxr-x  3 shlomo shlomo    4096 מאי 20  2015 scripts
+-rwxrwxr-x  1 shlomo shlomo      23 מאי 20  2015 shortpath.bat
+drwxrwxr-x  3 shlomo shlomo    4096 מאי 20  2015 src
+drwxrwxr-x  3 shlomo shlomo    4096 אוג 21 16:27 tutorials
+
+shlomo@xxx:~/dev/new-db/BIDMach64$ ./bidmach notebook
+```
 
 
 
