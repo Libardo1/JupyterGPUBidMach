@@ -5,8 +5,10 @@ A collection of scripts to utilize Bidmach on Jupyter.
 ## Target OS:
 Installed on Ubuntu 14 64BIT, but should work on recent releases too. 
 
-* shlomo@xxx$ uname -a
-* Linux xxx 4.2.0-35-generic #40~14.04.1-Ubuntu SMP Fri Mar 18 16:37:35 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+```
+shlomo@xxx$ uname -a
+Linux xxx 4.2.0-35-generic #40~14.04.1-Ubuntu SMP Fri Mar 18 16:37:35 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+```
 
 ## Target GPU:
 NVIDIA GPU family. Mine is:
