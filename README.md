@@ -2,6 +2,8 @@
 Integrate BidMach with Jupyter + Scala + GPU + CUDA.
 A collection of scripts to utilize Bidmach on Jupyter.
 
+![Jupyter](Selection_039.png)
+
 ## Target OS:
 Installed on Ubuntu 14 64BIT, but should work on recent releases too. 
 
