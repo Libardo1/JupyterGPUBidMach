@@ -4,6 +4,9 @@ A collection of scripts to utilize Bidmach on Jupyter.
 
 ![Jupyter](Selection_039.png)
 
+See : https://github.com/BIDData/BIDMach/wiki/Benchmarks 
+
+
 ## Target OS:
 Installed on Ubuntu 14 64BIT, but should work on recent releases too. 
 
