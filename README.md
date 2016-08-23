@@ -14,9 +14,16 @@ NVIDIA GPU family. Mine is:
 ## Install Anaconda Jupyter 
 
 ### Configuration
+Inside jupyter_notebook_config.py:
+
 
 ## Install BidMach 
 ### Configuration
+Inside 'bidmach':
+
+* export SPARK_HOME='/home/shlomo/dev/spark/'
+* export PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH:$SPARK_HOME/python/lib/py4j-0.9-src.zip
+* export XDG_RUNTIME_DIR=""
 
 ## Install Spark 1.6
 ### Configuration
